@@ -36,3 +36,6 @@ Print the PCBs for the [Reciever](https://github.com/saifsabban/N64-WirelessCont
 10. Place and glue all the parts inside the 3D printed box (As shown) and screw on the Lid<img src="/Extra/Images/1.jpg" alt="drawing" width="250"/>
 
 ## Making the Transmmitters
+1. Populate the Transmitter PCB with the appropriate parts:<br/><img src="N64_Transmitter/TXParts.png">
+2. Connect the ISP pins for your desired programmer to the Tramsmitter Board. Hopefully this image and the silkscreen will be of some help<br/><img src="N64_Transmitter/N64_TX.png" alt="drawing" width="800"/>
+3. Program the Board using AVRdudess with the same parameteres shown, MAKE SURE THAT THE HIGH BYTE IS 0xDF & LOW BYTE IS 0xDF. If you don't then you might never be able to use that microcontorller again unless you change the crystal<br/><img src="N64_Transmitter/ArduinoAsSP.png" alt="drawing" width="500"/>
