@@ -17,10 +17,10 @@ Know that if you decide to untertake this project, you are the one liable for an
 All the Components that are needed can be found in the bellow list:
 <img src="Extra/PartsList.png"> 
 
-Optionally you could use JST connectors, instead of soldering wires directly to the PCB. I used the PH series.
-you need to have an [ISP Arduino Programmer](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP), or use any ISP programmer such as the [USBasp-Programmer](https://hobbycomponents.com/usb-interface/841-usbasp-avr-programmer-adaptor).
-Install and set up [avrdudess](https://avrdudess.software.informer.com/2.4/) There are tons of write-ups on how to do this.
-Print the Receiver's [3D box and Lid](https://github.com/saifsabban/N64-WirelessControllerMod/tree/master/3D-PrintableCase), and use two 2.5M screws to hold it down.
+Optionally you could use JST connectors, instead of soldering wires directly to the PCB. I used the PH series.<br/>
+you need to have an [ISP Arduino Programmer](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP), or use any ISP programmer such as the [USBasp-Programmer](https://hobbycomponents.com/usb-interface/841-usbasp-avr-programmer-adaptor).<br/>
+Install and set up [avrdudess](https://avrdudess.software.informer.com/2.4/) There are tons of write-ups on how to do this.<br/>
+Print the Receiver's [3D box and Lid](https://github.com/saifsabban/N64-WirelessControllerMod/tree/master/3D-PrintableCase), and use two 2.5M screws to hold it down.<br/>
 Print the PCBs for the [Reciever](https://github.com/saifsabban/N64-WirelessControllerMod/blob/master/N64_Receiver/N64_Receiver_PCB/N64_RX_GerberV2.1.zip) & the [Transmitter](https://github.com/saifsabban/N64-WirelessControllerMod/blob/master/N64_Transmitter/N64_Transmitter_PCB/N64_Tx_V4.0_Gerber.zip)
 
 ## Making the Reciever
@@ -33,6 +33,6 @@ Print the PCBs for the [Reciever](https://github.com/saifsabban/N64-WirelessCont
 7. Glue the Connector to the BOX.
 8. Solder the Red wire to the + pad on the connector labeled N64, the black wire to the pad labeled - and the white wire to the pad in the middle of both + & -.
 9. Attact(or solder) the NRF24L01+ board onto the Reciever PCB.
-10. Place and glue all the parts inside the 3D printed box (As shown) and screw on the Lid<img src="/Extra/Images/1.jpg" alt="drawing" width="400"/>
+10. Place and glue all the parts inside the 3D printed box (As shown) and screw on the Lid<img src="/Extra/Images/1.jpg" alt="drawing" width="250"/>
 
 ## Making the Transmmitters
