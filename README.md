@@ -31,7 +31,7 @@ Print the PCBs for the [Reciever](https://github.com/saifsabban/N64-WirelessCont
 1. Populate the Receiver PCB with the appropriate parts:
 <img src="N64_Receiver/RXParts.png">
 2. Connect the ISP pins for your desired programmer to the Receiver Board. Hopefully this image and the silkscreen will be of some help<img src="N64_Receiver/N64_RX.png">
-3. Program the Board using AVRdudess with the same parameteres shown, MAKE SURE THAT THE HIGH BYTE IS 0xDF & LOW BYTE IS 0xEE. If you don't then you might never be able to use that microcontorller again unless you change the crystal <img src="N64_Receiver/N64_RX.png">
+3. Program the Board using AVRdudess with the same parameteres shown, MAKE SURE THAT THE HIGH BYTE IS 0xDF & LOW BYTE IS 0xEE. If you don't then you might never be able to use that microcontorller again unless you change the crystal <img src="N64_Receiver/ArduinoAsSP.png">
 4. Solder some wire to the switch, and solder the other side to the PCB board's SW connector (It doesn't matter which pole of the switch connects to which pad).
 5. Cut the N64 plug from the controller, making sure you have some length to route & solder to i usually keep amoubt 20cm of cable and cut as necissary.
 6. Check the fit of the plug to the printed box, some 3D printer make the opening to large or to small.
