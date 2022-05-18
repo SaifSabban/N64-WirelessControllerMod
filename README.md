@@ -21,10 +21,10 @@ Optionally you could use JST connectors, instead of soldering wires directly to 
 you need to have an [ISP Arduino Programmer](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP), or use any ISP programmer such as the [USBasp-Programmer](https://hobbycomponents.com/usb-interface/841-usbasp-avr-programmer-adaptor).<br/>
 Install and set up [avrdudess](https://avrdudess.software.informer.com/2.4/) There are tons of write-ups on how to do this.<br/>
 Print the Receiver's [3D box and Lid](https://github.com/saifsabban/N64-WirelessControllerMod/tree/master/3D-PrintableCase), and use two 2.5M screws to hold it down.<br/>
-Print the PCBs for the [Reciever](https://github.com/saifsabban/N64-WirelessControllerMod/blob/master/N64_Receiver/N64_Receiver_PCB/N64_RX_GerberV2.1.zip) & the [Transmitter](https://github.com/saifsabban/N64-WirelessControllerMod/blob/master/N64_Transmitter/N64_Transmitter_PCB/N64_Tx_V4.0_Gerber.zip)
+Print the PCBs for the [Reciever with a SMD microcontroller](https://github.com/saifsabban/N64-WirelessControllerMod/blob/master/N64_Receiver/N64_Receiver_PCB/N64_RX_GerberV2.1.zip) or [Reciever with a DIP microcontroller](https://github.com/saifsabban/N64-WirelessControllerMod/blob/master/N64_Receiver/N64_Receiver_PCB/N64_RX_GerberV2.0.zip) & the [Transmitter](https://github.com/saifsabban/N64-WirelessControllerMod/blob/master/N64_Transmitter/N64_Transmitter_PCB/N64_Tx_V4.0_Gerber.zip)
 
 ## Making the Receiver
-1. Populate the Receiver PCB with the appropriate parts:<br/><img src="N64_Receiver/RXParts.png">
+1. Populate the Receiver PCB with the appropriate parts (The essential resistors & capacitor can be either SMD or Through-Hole):<br/><img src="N64_Receiver/RXParts.png">
 2. Connect the ISP pins for your desired programmer to the Receiver Board. Hopefully this image and the silkscreen will be of some help<br/><img src="N64_Receiver/N64_RX.png" alt="drawing" width="800"/>
 3. Program the Board using AVRdudess with the same parameters shown, MAKE SURE THAT THE HIGH BYTE IS 0xDF & LOW BYTE IS 0xEE. If you don't then you might never be able to use that microcontroller again unless you change the crystal<br/><img src="N64_Receiver/ArduinoAsSP.png" alt="drawing" width="500"/>
 4. Solder some wire to the switch, and solder the other side to the PCB board's SW connector (It doesn't matter which pole of the switch connects to which pad).
