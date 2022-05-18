@@ -27,7 +27,7 @@ Print the PCBs for the [Reciever with a SMD microcontroller](https://github.com/
 
 ## Making the Receiver
 1. Populate the Receiver PCB with the appropriate parts (The essential resistors & capacitor can be either SMD or Through-Hole):<br/><p align="center"><img src="N64_Receiver/RXParts.png"><p>
-2. Connect the ISP pins for your desired programmer to the Receiver Board. Hopefully this image and the silkscreen will be of some help.<br/><p align="center"><img src="N64_Receiver/N64_RX.png" alt="drawing" width="800"/><p>
+2. Connect the ISP pins for your desired programmer to the Receiver Board. Hopefully this refference image and the PCB silkscreen will be of some help.<br/><p align="center"><img src="N64_Receiver/N64_RX.png" alt="drawing" width="800"/><p>
 3. Program the Board using AVRdudess with the same parameters shown, MAKE SURE THAT THE HIGH BYTE IS 0xDF & LOW BYTE IS 0xEE. If you don't then you might never be able to use that microcontroller again unless you change the crystal<br/><p align="center"><img src="N64_Receiver/ArduinoAsSP.png" alt="drawing" width="500"/><p>
 4. Solder some wire to the switch, and solder the other side to the PCB board's SW connector (It doesn't matter which pole of the switch connects to which pad).
 5. Cut the N64 plug from the controller, making sure you have some length to route & solder to, I usually keep amount 20cm of cable and cut as necessary.
@@ -39,7 +39,13 @@ Print the PCBs for the [Reciever with a SMD microcontroller](https://github.com/
 
 ## Making the Transmitters
 1. Populate the Transmitter PCB with the appropriate parts:<br/><p align="center"><img src="N64_Transmitter/TXParts.png"><p>
-2. Connect the ISP pins for your desired programmer to the Transmitter Board. Hopefully this image will be of some help (the pins are in the same location as the connector on the Transmitter PCB, the Ground pin is the one highlighted)<br/><p align="center"><img src="N64_Transmitter/N64_TX.png" alt="drawing" width="800"/><p>
+2. Connect the ISP pins for your desired programmer to the Transmitter Board. Hopefully this refference image will be of some help (the pins are in the same location as the connector on the Transmitter PCB, the Ground pin is the one that is highlighted)<br/><p align="center"><img src="N64_Transmitter/N64_TX.png" alt="drawing" width="800"/><p>
 3. Program the Board using AVRdudess with the same parameters shown, MAKE SURE THAT THE HIGH BYTE IS 0xDF & LOW BYTE IS 0xDF. If you don't then you might never be able to use that microcontroller again unless you change the crystal<br/><p align="center"><img src="N64_Transmitter/ArduinoAsSP.png" alt="drawing" width="500"/><p>
 4. Disasemble the N64 Controller.
-5. Desolder the original blue connector that connects to the cable. (I would strongly advise soldiring a JST 4 pin PH female connector) as shown in the photo below<br/><p align="center"><img src="/Extra/Images/22.jpg" alt="drawing" width="700"/><p>
+5. Desolder the original blue connector that connects to the cable. (I would strongly advise soldering a JST 4 pin PH female connector as shown in the photo below)<br/><p align="center"><img src="Extra/Images/22.jpg" alt="drawing" width="700"/><p>
+6. Check the Size of your switch as around 4.8mm, and proceed to drill a 5mm hole at the button half of the controller (See images), solder some wires to them and screw them onto the controller<br/><p align="center"><img src="Extra/Images/18.jpg" alt="drawing" width="500"/><p><br/><p align="center"><img src="Extra/Images/18.jpg" alt="drawing" width="500"/><p>
+7. Soilder some wires to the 5mm LED and hotglue it into the hole that the old controller wire used to come out of. (Keep a note which wire is positive and which is negative) <br/><p align="center"><img src="Extra/Images/4.jpg" alt="drawing" width="500"/><p>
+8. route the wires switch and LED wires to the "Right Hand" area of the controller.<br/><p align="center"><img src="Extra/Images/15.jpg" alt="drawing" width="500"/><p>
+9. Remove the 2 lower "Crosses" that brace the buttons, from the bottom half of the controller.<br/><p align="center"><img src="Extra/Images/2.jpg" alt="drawing" width="500"/><p>
+10. solder wires to the "Bat" pin and the "GND" pin on the Adafruit Micro lipo.
+11. 
