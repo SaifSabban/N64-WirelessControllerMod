@@ -33,7 +33,7 @@ Print the PCBs for the [Reciever](https://github.com/saifsabban/N64-WirelessCont
 7. Glue the Connector to the BOX.
 8. Solder the Red wire to the + pad on the connector labelled N64, the black wire to the pad labelled - and the white wire to the pad in the middle of both + & -.
 9. Attach (or solder) the NRF24L01+ board onto the Receiver PCB.
-10. Place and glue all the parts inside the 3D printed box (As shown) and screw on the Lid<img src="/Extra/Images/1.jpg" alt="drawing" width="250"/>
+10. Place and glue all the parts inside the 3D printed box (As shown) and screw on the Lid<br/><img src="/Extra/Images/1.jpg" alt="drawing" width="250"/>
 
 ## Making the Transmitters
 1. Populate the Transmitter PCB with the appropriate parts:<br/><img src="N64_Transmitter/TXParts.png">
