@@ -25,7 +25,7 @@ Print the PCBs for the [Reciever with a SMD microcontroller](https://github.com/
 
 ## Making the Receiver
 1. Populate the Receiver PCB with the appropriate parts (The essential resistors & capacitor can be either SMD or Through-Hole):<br/><img src="N64_Receiver/RXParts.png">
-2. Connect the ISP pins for your desired programmer to the Receiver Board. Hopefully this image and the silkscreen will be of some help<br/><img src="N64_Receiver/N64_RX.png" alt="drawing" width="800"/>
+2. Connect the ISP pins for your desired programmer to the Receiver Board. Hopefully this image and the silkscreen will be of some help.<br/><img src="N64_Receiver/N64_RX.png" alt="drawing" width="800"/>
 3. Program the Board using AVRdudess with the same parameters shown, MAKE SURE THAT THE HIGH BYTE IS 0xDF & LOW BYTE IS 0xEE. If you don't then you might never be able to use that microcontroller again unless you change the crystal<br/><img src="N64_Receiver/ArduinoAsSP.png" alt="drawing" width="500"/>
 4. Solder some wire to the switch, and solder the other side to the PCB board's SW connector (It doesn't matter which pole of the switch connects to which pad).
 5. Cut the N64 plug from the controller, making sure you have some length to route & solder to, I usually keep amount 20cm of cable and cut as necessary.
