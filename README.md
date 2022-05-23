@@ -52,10 +52,10 @@ Print the PCBs for the [Reciever with a SMD microcontroller](https://github.com/
 10. solder wires to the "Bat" pin and the "GND" pin on the Adafruit Micro lipo.
 11. Place the Micro lipo at the Right-hand side of the controller, and cut a bit off the corresponding top and bottom half edges to allow the USB charger through.<br/><p align="center"><img src="Extra/Images/11.jpg" alt="drawing" width="500"/><p><br/><p align="center"><img src="Extra/Images/3.jpg" alt="drawing" width="500"/><p>
 12. Desolder the Pins on the NRF24L01+ and solder wires to each pin, remembering which wire corresponds to which pin.<br/><p align="center"><img src="Extra/Images/NRF24L01Pins.jpg" alt="drawing" width="500"/><p>
-13. leave some length and solder the other side of the wires from step 11 to the Custom board.<br/><p align="center"><img src="Extra/Images/24.jpg" alt="drawing" width="500"/><p>
+13. leave some length and solder the other side of the wires from step 11 to the Custom board.<br/><p align="center"><img src="Extra/Images/24.png" alt="drawing" width="500"/><p>
 14. Solder the LED and Switch wires to the Main PCB, making sure the polarity of the LED wires are correct (- pin is Ground, + pin is 3.3V).
 15. Solder the wires from the Micro lipo, to the Custom board's Bat pins, making sure that the Bat pin solders to the pin marked with a +.
-16. Solder the wires From the N64 controller board to the custom board, Pin order is VCC (Denoted by the + sign on top), signal wire, and ground. <br/><p align="center"><img src="Extra/Images/25.jpg" alt="drawing" width="500"/><p>
+16. Solder the wires From the N64 controller board to the custom board, Pin order is VCC (Denoted by the + sign on top), signal wire, and ground. <br/><p align="center"><img src="Extra/Images/25.png" alt="drawing" width="500"/><p>
 17. Attach a battery to the micro lipo and test the mod. Remember if you press the A button while powering the N64 controller with the mod, you will set the channel to A, while if you press B, you will set it to Channel B.
 18. If all works button up your device. I recommend routing the battery to the Left hand side of the controller, the custom board to the Right, and feeding the NRF24L01+ into the nook of the expantion slot.<br/><p align="center"><img src="Extra/Images/9.jpg" alt="drawing" width="500"/><p>
 
