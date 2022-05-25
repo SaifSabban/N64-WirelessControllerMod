@@ -8,6 +8,14 @@ alt="IMAGE ALT TEXT HERE" width="960" border="1" /></a>
 
 [!Youtube Tutorial Link (.../Extra/Images/Face.png)](http://www.youtube.com/shorts/WrgqsBNa95k)
 
+<p align="center">
+<iframe width="560 hight="315" src="http://www.youtube.com/shorts/WrgqsBNa95k" title="Youtube Tutorial Link" frameboarder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+href="http://www.youtube.com/shorts/WrgqsBNa95k" target="_blank"><img src="/Extra/Images/Face.png" 
+alt="IMAGE ALT TEXT HERE" width="960" border="1" /></a>
+<p>
+
 ### Notes
 This project could use a lot of work, mainly:
 1. We could integrate the NRF24L01+ into the PCB boards.
