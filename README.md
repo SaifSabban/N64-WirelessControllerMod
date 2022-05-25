@@ -6,6 +6,8 @@ A modification to your current N64 controller to make it wireless. Based on the 
 alt="IMAGE ALT TEXT HERE" width="960" border="1" /></a>
 <p>
 
+[!Youtube Tutorial Link (/Extra/Images/Face.png)](http://www.youtube.com/shorts/WrgqsBNa95k)
+
 ### Notes
 This project could use a lot of work, mainly:
 1. We could integrate the NRF24L01+ into the PCB boards.
